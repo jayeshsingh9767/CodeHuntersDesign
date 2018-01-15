@@ -1,0 +1,192 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:white;
+  font-size: 14px;
+  border-radius:20px;
+}
+
+#header h2{
+  margin:4px;
+  padding: 4px;
+  background-color: #31DDE5;
+  color:#167112;
+  font-size: 300%;
+  height:auto;
+  border-radius: 15px;
+}
+
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul li{
+  display: block;
+  float: left;
+  width: 195px;
+  height: 40px;
+  /* background-color: black; */
+  opacity: 0.8;
+  line-height: 47px;
+  font-size: 30px;
+  font-weight: bold;
+
+  background-color: #a50d96;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+   /* background-color: #a50d96; */
+
+}
+
+ul li a:hover{
+  background-color: green;
+  box-shadow:5px 5px 5px #434440;
+
+}
+
+ul li ul li{
+  display: none;
+  padding: 9px;
+
+   /* background-color: #a50d96; */
+}
+ul li:hover ul li{
+  display: block;
+
+}
+
+#menu{
+  margin:4px;
+  padding: 4px;
+  background-color:#a50d96 ;
+  border-radius: 15px;
+  /* width: 800px; */
+  height: 50px;
+
+}
+
+/* #outer{
+   float: left;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+#outer li{
+
+
+  width: 200px;
+  height:40px;
+
+} */
+
+
+
+ #sidebar{
+
+  margin-left: 4px;
+  padding-right: 4px;
+  margin-top: 1px;
+  margin-botton:2px;
+  margin-right: 2px;
+  color:black;
+  background: #31DDE5;
+  height:605px;
+  width:210px;
+  float:left;
+  border-radius: 15px;
+
+}
+
+
+#form{
+  display: block;
+  margin-left: 4px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  background-color: #99D51A;
+
+}
+
+#form:hover{
+  display: block;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  background-color: #95F507;
+
+}
+
+
+
+.label{
+  font-size: 140%;
+  display: block;
+  margin-top: 10px;
+  margin-left:6px;
+}
+
+.textbox{
+
+  padding-left:6px;
+  border-left: 5px;
+  border-radius: 10px;
+  border-color: black;
+  height: 18px;
+}
+
+#form p a{
+  padding-left: 0px;
+  padding-right:0px;
+  color:blue;
+  font-size: 20px;
+}
+
+#login{
+  color:blue;
+  font-size: 200%;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 1px 1px 1px;
+}
+
+#main{
+  /* width:400px; */
+  height:250px;
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: 117%;
+  margin-right: 4px;
+  margin-left:218px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding:4px;
+  height: 600px;
+  border-radius: 15px;
+}
+
+h2{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+#footer{
+  margin:4px;
+  padding:4px;
+
+  background-color: #31DDE5;
+  height:50px;
+  border-radius: 15px;
+}
